@@ -3,7 +3,7 @@ NLP Repo:
 This repository provides Natural Language Models and different text classification projects.   
 
 ## Overview of Language models:      
--- paCy and NLTK (Natural Language Toolkit) for sentence and word tokenization. SpaCy is faster and better for production, while NLTK is great for research and education.  
+-- SpaCy and NLTK (Natural Language Toolkit) for sentence and word tokenization. SpaCy is faster and better for production, while NLTK is great for research and education.  
 -- SpaCy Pipeline Components: SpaCy’s pipeline consists of various attributes: tagger (`.pos_`), parser, lemmatizer (`.lemma_`), named entity recognizer (`.ent`), and dependency parser (`.dep_`). [Read more here](https://spacy.io/usage/processing-pipelines#pipelines).  
 --Stemming vs. Lemmatization: Stemming uses simple rules to derive the root form of a word, while lemmatization relies on language knowledge for more accurate base forms. SpaCy does not include stemming; NLTK has both stemming and lemmatization.  
 -- POS vs. Tag: Part-of-speech (POS) tagging identifies a word's coarse-grained category, while the tag provides a fine-grained category.  
